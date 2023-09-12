@@ -1,0 +1,76 @@
+/* updaeduser.module.css */
+
+/* Container styles */
+.container {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  /* Header styles */
+  .header {
+    margin: 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #f22a2a;
+
+  }
+  
+  /* Form styles */
+  .right > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px; /* Set a maximum width for the form */
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Input field styles */
+  .inputField {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Submit button styles */
+  .submitButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:  #f22a2a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Left section styles (for error messages) */
+  .left {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    color: #f22a2a;
+   background-color: rgb(255, 255, 255);
+
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      margin: 5%;
+    }
+    .right > form {
+      max-width: 100%;
+    }
+  }
+  
