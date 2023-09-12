@@ -60,7 +60,7 @@ authController.get(
     const REQ = req.user;
     const payload = { id: REQ._id };
     toKen = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '5h' });
-    res.redirect(`https://6500cc8c68836b03ebd97a17--tangerine-raindrop-8e2f11.netlify.app//auth/${toKen}`);
+    res.redirect(`https://6500e0125caf0317fa38142b--benevolent-gumdrop-0cc445.netlify.app/auth/${toKen}`);
   }
 );
 
