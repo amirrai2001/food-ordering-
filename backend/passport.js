@@ -7,7 +7,7 @@ passport.use(
     {
       clientID: process.env.CLIENT_ID,
       clientSecret: process.env.CLIENT_SECRET,
-      callbackURL: '/auth/google/callback',
+      callbackURL: 'https://food-ordering-rrdm.onrender.com/auth/google/callback',
       scope: ['profile', 'email'],
       session:false,
     },
