@@ -50,7 +50,7 @@ const Login = () => {
 
 
   const googleAuth = async () => {
-    window.open(`http://localhost:4000/auth/google/callback`, "_self");
+    window.open(`https://benevolent-gumdrop-0cc445.netlify.app/auth/google/callback`, "_self");
   };
   
   return (
